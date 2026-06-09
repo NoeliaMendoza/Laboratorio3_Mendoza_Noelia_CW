@@ -1,0 +1,84 @@
+.contenedor {
+    padding: 40px 60px;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    color: #555;
+    line-height: 1.8;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.infoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.infoItem {
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    padding: 15px 25px;
+    min-width: 180px;
+}
+
+.infoItem span {
+    color: #97ce4c;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.infoItem p {
+    color: white;
+    margin: 0;
+}
+
+.objetivo {
+    background-color: #f4f4f4;
+    padding: 20px 25px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.objetivoTitulo {
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.tecnologiasTitulo {
+    color: #1a1a2e;
+    margin-bottom: 15px;
+}
+
+.tecGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tecItem {
+    background-color: #97ce4c;
+    color: #1a1a2e;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.materias {
+    margin-top: 40px;
+}
+
+.materiasTitulo {
+    font-size: 1.5rem;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+}

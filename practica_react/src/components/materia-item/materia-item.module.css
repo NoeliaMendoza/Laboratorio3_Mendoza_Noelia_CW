@@ -1,0 +1,29 @@
+.materiaItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #555;
+    padding: 20px;
+    margin-bottom: 15px;
+    min-width: 10px;
+}
+
+.icono {
+    font-size: 2.5rem;
+    color: #97ce4c;
+    min-width: 50px;
+    text-align: center;
+}
+
+.nombre {
+    color: #1a1a2e;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}

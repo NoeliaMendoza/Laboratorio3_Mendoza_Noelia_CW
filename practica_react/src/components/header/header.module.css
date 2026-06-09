@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    color: white;
+    background-color: #272640;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.menuContainer {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.menuItems {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.menuItems:hover {
+    border-color: #272640;
+    color: rgb(255, 255, 255);
+    background-color: #272640;
+}

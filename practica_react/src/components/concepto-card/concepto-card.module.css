@@ -1,0 +1,28 @@
+.conceptoCard {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(26, 46, 1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    color: #ffffff;
+    background-color: rgb(8, 8, 31);
+    margin-bottom: 8px;
+    padding: 2px;
+}
+
+.descripcion {
+    color: #555;
+    font-size: 0.9rem;
+}

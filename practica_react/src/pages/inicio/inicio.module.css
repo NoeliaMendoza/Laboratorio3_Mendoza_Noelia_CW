@@ -1,0 +1,55 @@
+.hero {
+    color: white;
+    text-align: center;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(https://i.pinimg.com/1200x/09/29/03/092903f1adf553f2bdf29fe12445f8f5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    border-radius: 20px;
+}
+
+.heroTitulo {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #a8d964;
+}
+
+.heroDescripcion {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.heroButton {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.conceptos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.conceptosTitulo {
+    font-size: 1.5rem;
+    color: #1a1a2e;
+    margin-bottom: 25px;
+}
+
+.conceptosGrid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

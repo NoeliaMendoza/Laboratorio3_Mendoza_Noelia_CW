@@ -1,0 +1,1 @@
+export { PersonajesPages } from "./personajes";

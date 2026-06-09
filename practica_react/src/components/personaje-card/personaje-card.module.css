@@ -1,0 +1,32 @@
+.personajeCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    text-align: center;
+    border: 2px solid rgb(190, 190, 243);
+}
+
+.personajeImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.personajeInfo {
+    padding: 10px;
+}
+
+.personajeNombre {
+    font-size: 1rem;
+    color: #1a1a2e;
+    margin-bottom: 5px;
+}
+
+.personajeEspecie {
+    font-size: 0.85rem;
+    color: #4275ea;
+    font-weight: bold;
+}

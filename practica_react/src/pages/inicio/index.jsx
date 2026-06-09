@@ -1,0 +1,1 @@
+export { InicioPages } from "./inicio";

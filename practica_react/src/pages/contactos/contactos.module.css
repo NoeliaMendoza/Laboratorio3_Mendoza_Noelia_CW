@@ -1,0 +1,83 @@
+.contenedor {
+    display: flex;
+    height: 60vh;
+    margin: 60px auto;
+    max-width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgb(224, 221, 221);
+}
+
+.izquierda {
+    width: 45%;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://i.pinimg.com/1200x/63/e3/11/63e31139118e3bf763cf7d193369c001.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.izquierdaTitulo {
+    color: white;
+}
+
+.izquierdaDescripcion {
+    color: #ddd;
+    line-height: 1.8;
+}
+
+.derecha {
+    width: 55%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap: 15px;
+}
+
+.formTitulo {
+    font-size: 1.8rem;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+}
+
+.textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    resize: none;
+    height: 80px;
+}
+
+.boton {
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #97ce4c;
+    color: #1a1a2e;
+}

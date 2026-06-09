@@ -1,0 +1,1 @@
+export { NosotrosPages } from "./nosotros";
