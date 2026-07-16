@@ -1,29 +1,49 @@
 .menu {
     display: flex;
+    flex-wrap: wrap;
     color: white;
     background-color: #272640;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 40px;
+    gap: 10px;
+    padding: 15px 24px;
 }
 
 .menuContainer {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
     background-color: white;
     border-radius: 25px;
+    padding: 5px;
 }
 
 .menuItems {
-    margin: 10px;
+    margin: 0;
     color: black;
     text-decoration: none;
     border: 1px solid gray;
-    padding: 5px 15px;
+    padding: 8px 14px;
     border-radius: 20px;
+    white-space: nowrap;
 }
 
 .menuItems:hover {
     border-color: #272640;
     color: rgb(255, 255, 255);
     background-color: #272640;
+}
+
+@media (max-width: 640px) {
+    .menu {
+        justify-content: center;
+        padding: 15px 16px;
+    }
+
+    .menuItems {
+        flex: 1 1 auto;
+        min-width: 110px;
+        text-align: center;
+    }
 }

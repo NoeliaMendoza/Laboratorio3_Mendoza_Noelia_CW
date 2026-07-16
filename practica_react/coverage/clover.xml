@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781385867070" clover="3.2.0">
+  <project timestamp="1781385867070" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11" elements="41" coveredelements="41" complexity="0" loc="30" ncloc="30" packages="9" files="22" classes="22"/>
+    <package name="components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.concepto-card">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="concepto-card.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\concepto-card\concepto-card.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+      <file name="concepto-card.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\concepto-card\concepto-card.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\concepto-card\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.footer">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="footer.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\footer\footer.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="footer.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\footer\footer.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\footer\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.header">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="header.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\header\header.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+      <file name="header.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\header\header.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\header\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.layout">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\layout\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="layout.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\layout\layout.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="layout.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\layout\layout.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.materia-item">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\materia-item\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="materia-item.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\materia-item\materia-item.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+      <file name="materia-item.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\materia-item\materia-item.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.personaje-card">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\personaje-card\index.jsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="personaje-card.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\personaje-card\personaje-card.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+      <file name="personaje-card.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\components\personaje-card\personaje-card.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="pages.personajes">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="personajes.jsx" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\pages\personajes\personajes.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="personajes.module.css" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\pages\personajes\personajes.module.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="rick-and-morty-service.js" path="C:\Users\nkmj2\Desktop\Lab3_Mendoza_Noelia\practica_react\src\services\rick-and-morty-service.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

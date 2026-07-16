@@ -3,7 +3,7 @@
     border-radius: 10px;
     border: 1px solid rgb(26, 46, 1);
     padding: 20px;
-    width: 300px;
+    width: min(100%, 300px);
     text-align: center;
 }
 

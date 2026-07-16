@@ -1,5 +1,6 @@
 .materiaItem {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     background-color: white;
@@ -8,6 +9,13 @@
     padding: 20px;
     margin-bottom: 15px;
     min-width: 10px;
+}
+
+@media (max-width: 640px) {
+    .materiaItem {
+        gap: 12px;
+        padding: 16px;
+    }
 }
 
 .icono {

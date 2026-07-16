@@ -1,15 +1,18 @@
 .contenedor {
     display: flex;
-    height: 60vh;
-    margin: 60px auto;
+    flex-wrap: wrap;
+    min-height: 60vh;
+    margin: 40px auto;
     max-width: 900px;
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid rgb(224, 221, 221);
+    background-color: white;
 }
 
 .izquierda {
-    width: 45%;
+    flex: 1 1 320px;
+    min-width: 280px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(https://i.pinimg.com/1200x/63/e3/11/63e31139118e3bf763cf7d193369c001.jpg);
@@ -18,7 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 40px;
+    padding: 30px;
 }
 
 .izquierdaTitulo {
@@ -31,13 +34,32 @@
 }
 
 .derecha {
-    width: 55%;
+    flex: 1 1 320px;
+    min-width: 280px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
     gap: 15px;
+}
+
+@media (max-width: 820px) {
+    .contenedor {
+        min-height: auto;
+        margin: 20px 16px;
+    }
+
+    .izquierda,
+    .derecha {
+        width: 100%;
+        min-width: 100%;
+        padding: 24px;
+    }
+
+    .derecha {
+        order: 2;
+    }
 }
 
 .formTitulo {
