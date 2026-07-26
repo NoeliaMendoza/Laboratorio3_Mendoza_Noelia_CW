@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "cd practica_react && npm install && npm run build"
+  }
+}

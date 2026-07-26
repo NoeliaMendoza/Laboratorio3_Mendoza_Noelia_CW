@@ -1,8 +1,6 @@
 {
-  "buildCommand": "cd practica_react && npm run build",
-  "installCommand": "cd practica_react && npm install",
   "outputDirectory": "practica_react/dist",
-  "framework": "vite",
+  "framework": null,
   "rewrites": [
     {
       "source": "/(.*)",
