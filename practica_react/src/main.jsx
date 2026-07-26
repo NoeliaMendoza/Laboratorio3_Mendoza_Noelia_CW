@@ -1,11 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './App.css'
 import App from './App.jsx'
 import { registerSW } from "virtual:pwa-register"
 
 registerSW({
-  immediate: true
+  immediate: true,
+  onNeedRefresh() { window.location.reload(); }
 })
 
 createRoot(document.getElementById('root')).render(

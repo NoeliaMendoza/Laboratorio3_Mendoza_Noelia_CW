@@ -1,0 +1,91 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 32px;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 36px;
+    border-radius: 24px;
+    background: #ffffff;
+    border: 2px solid rgba(206, 211, 222, 0.9);
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+.titulo {
+    margin: 0 0 10px;
+    color: #111827;
+    font-size: 2rem;
+    letter-spacing: -0.03em;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #4b5563;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 20px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    max-height: 520px;
+    min-height: 420px;
+}
+
+.panelImage {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.formulario {
+    display: grid;
+    gap: 16px;
+}
+
+.campo {
+    width: 100%;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.infoText {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        margin: 24px 16px;
+        padding: 24px;
+    }
+}

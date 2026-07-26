@@ -11,6 +11,10 @@ export const Header = () => {
                 <Link className={styles.menuItems} to='/contactos'>Contactos</Link>
                 <Link className={styles.menuItems} to='/personajes'>Personajes</Link>
             </nav>
+            <div>
+                <Link className={styles.menuLogin} to='/login'>Inicio Sesión</Link>
+                <Link className={styles.menuRegister} to='/register'>Registro</Link>
+            </div>
         </header>
     )
 }

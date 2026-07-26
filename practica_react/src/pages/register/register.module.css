@@ -1,0 +1,83 @@
+.contenedor {
+    display: grid;
+    gap: 32px;
+    max-width: 760px;
+    margin: 10px auto;
+    padding: 36px;
+    border-radius: 24px;
+    background: #ffffff;
+    border: 2px solid rgba(206, 211, 222, 0.9);
+    min-height: calc(100vh - 100px);
+}
+
+.titulo {
+    margin: 0 0 10px;
+    color: #111827;
+    font-size: 2rem;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #4b5563;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 18px;
+}
+
+.campo {
+    width: 100%;
+    min-height: 56px;
+}
+
+.campo:nth-child(3),
+.campo:nth-child(4),
+.actions {
+    grid-column: span 2;
+}
+
+.errorText {
+    grid-column: span 2;
+    color: #dc2626;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.infoText {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        margin: 24px 16px;
+        padding: 24px;
+    }
+}

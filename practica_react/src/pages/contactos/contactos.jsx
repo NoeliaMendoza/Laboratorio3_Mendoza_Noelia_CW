@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './contactos.module.css'
 
 export const ContactosPages = () => {

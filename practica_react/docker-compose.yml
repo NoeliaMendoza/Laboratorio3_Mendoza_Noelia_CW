@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  frontend:
+    build: .
+    container_name: frontend_react
+    restart: always
+    ports:
+      - "4173:4173"
+    environment:
+      VITE_API_URL: http://localhost:3000

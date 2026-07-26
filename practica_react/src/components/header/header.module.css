@@ -9,6 +9,17 @@
     padding: 15px 24px;
 }
 
+.menuLogin,
+.menuRegister {
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 8px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
 .menuContainer {
     display: flex;
     flex-wrap: wrap;

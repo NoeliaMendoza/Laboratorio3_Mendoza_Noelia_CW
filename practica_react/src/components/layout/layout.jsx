@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header, Footer } from '../index';
 import styles from './layout.module.css';
 

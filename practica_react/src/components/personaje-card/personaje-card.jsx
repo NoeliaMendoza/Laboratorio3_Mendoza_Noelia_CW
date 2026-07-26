@@ -1,15 +1,28 @@
 import PropTypes from 'prop-types';
-import styles from './personaje-card.module.css';
+
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+
 
 export const PersonajeCard = ({ nombre, especie, url }) => {
     return (
-        <div className={styles.personajeCard}>
-            <img className={styles.personajeImg} src={url} alt={nombre} />
-            <div className={styles.personajeInfo}>
-                <h3 className={styles.personajeNombre}>{nombre}</h3>
-                <p className={styles.personajeEspecie}>{especie}</p>
-            </div>
-        </div>
+        <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+                sx={{ height: 140 }}
+                image={url}
+                title={nombre}
+            />
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    {nombre}
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    Especie: {especie}
+                </Typography>
+            </CardContent>
+        </Card>
     );
 }
 
