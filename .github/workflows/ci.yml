@@ -4,10 +4,6 @@ on:
   push:
     branches: [main]
 
-defaults:
-  run:
-    working-directory: practica_react
-
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -36,6 +32,6 @@ jobs:
       - name: Construir y publicar imagen Docker
         uses: docker/build-push-action@v6
         with:
-          context: ./practica_react
+          context: .
           push: true
           tags: noelia150/frontend-react:latest
